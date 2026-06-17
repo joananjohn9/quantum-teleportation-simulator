@@ -1,8 +1,8 @@
 import numpy as np
 
-from src.quantum_teleportation_noise.states import ket_0
+from quantum_teleportation_noise.states import ket_0
 
-from src.quantum_teleportation_noise.gates import (
+from quantum_teleportation_noise.gates import (
     I,
     H,
     X,

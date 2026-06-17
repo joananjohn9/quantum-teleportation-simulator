@@ -1,8 +1,8 @@
 import numpy as np
 
-from src.quantum_teleportation_noise.states import generate_random_qubit
-from src.quantum_teleportation_noise.teleportation import teleport_state
-from src.quantum_teleportation_noise.metrics import fidelity
+from quantum_teleportation_noise.states import generate_random_qubit
+from quantum_teleportation_noise.teleportation import teleport_state
+from quantum_teleportation_noise.metrics import fidelity
 
 
 N_TESTS = 100
